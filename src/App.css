@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  background: #FFF3E2;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.berry-icon {
+  font-size: 50px;
+  color:#E74646;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #E74646;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.price-box {
+  background: #5C8F00;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  margin: 40px 0px 30px;
+  height: 80px;
+  width: 80px;
+}
+
+.price {
+  font-size: 27px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.berries {
+  width: 400px;
+  transition: all 1s ease-in-out;
+}
+
+.berries:hover {
+  transform: scale(1.1);
+}
+
+.description {
+  font-size: 22px;
+}
+
+.buy-btn {
+  margin-top: 50px;
+  padding: 9px 35px;
+  border: none;
+  background: #E74646;
+  color:#ffffff;
+  font-size: 22px;
+}
+
+.buy-btn:hover {
+  background: #9C0012;
+}
+
+.stripe-box {
+  display: flex;
+  width: 450px;
+  padding: 30px 10px;
+}
+
+.payment-form {
+  width: 100%;
+}
+
+.pay-btn {
+  margin-top: 40px;
+  font-size: 16px;
+  padding: 6px 35px;
+  background: #4F9100;
+  border: none;
+  color:#ffffff;
+}
+
+.pay-btn:hover {
+  background: #265C00;
+}
+
+.confirm-answer {
+  margin: 50px 10px 0px;
+  padding: 20px 30px;
+  border: 3px solid #d5f5ae;
+  border-radius: 10px;
+  background: rgb(79,145,0);
+background: linear-gradient(180deg, rgba(79,145,0,0.8) 40%, rgba(79,145,0,0.7) 63%, rgba(79,145,0,0.6) 89%);
+  color: #ffffff;
+}
+
+.checkmark {
+  font-size: 35px;
+}
+
+@media all and (max-width: 540px) {
+.berry-icon {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+  
+h1 {
+  font-size: 35px;
+}
+
+.price-box {
+  margin: 30px 0px 25px;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+  
+.price {
+  font-size: 21px;
+}
+
+.berries {
+  width: 280px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.buy-btn {
+  margin-top: 30px;
+  padding: 9px 35px;
+  font-size: 20px;
+}
+
+.stripe-box {
+  width: 280px;
+}
+}
