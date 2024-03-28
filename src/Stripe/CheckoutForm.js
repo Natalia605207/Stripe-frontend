@@ -21,7 +21,7 @@ export const CheckoutForm = () => {
       try {
         const { id } = paymentMethod;
         const response = await axios.post(
-          "http://localhost:8080/stripe/charge",
+          "https://stripe-backend-okyz.onrender.com",
           {
             amount: 999,
             id: id,
